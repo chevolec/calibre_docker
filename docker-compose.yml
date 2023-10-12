@@ -1,0 +1,18 @@
+version: "2.1"
+services:
+  calibre:
+    image: linuxserver/calibre-web
+    container_name: calibreweb
+    security_opt:
+      - seccomp:unconfined #optional
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - PASSWORD= #optional
+      - CLI_ARGS= #optional
+    volumes:
+      - ./books:/books
+    ports:
+      - 80:8083
+    restart: unless-stopped
