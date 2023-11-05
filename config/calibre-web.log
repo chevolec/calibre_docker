@@ -1,0 +1,85 @@
+[2023-10-29 07:00:00,369]  WARN {cps.config_sql:352} Log path /config/calibre-web.log not valid, falling back to default
+[2023-10-29 07:00:00,384]  WARN {cps.config_sql:352} Log path  not valid, falling back to default
+[2023-10-29 07:00:00,386]  WARN {cps.config_sql:388} invalidating configuration
+[2023-10-29 07:00:00,386]  WARN {cps.config_sql:352} Log path  not valid, falling back to default
+[2023-10-29 07:00:00,398]  INFO {cps:168} *** "pytz" version does not meet the requirements. Should: available, Found: Not available, please consider installing required version ***
+[2023-10-29 07:00:00,398]  INFO {cps:177} Starting Calibre Web...
+[2023-10-29 07:00:00,540]  WARN {py.warnings:109} /lsiopy/lib/python3.10/site-packages/flask_limiter/extension.py:308: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2023-10-29 07:00:00,623]  INFO {apscheduler.scheduler:181} Scheduler started
+[2023-10-29 07:00:00,623]  INFO {apscheduler.scheduler:895} Added job "end scheduled task" to job store "default"
+[2023-10-29 07:00:00,683]  INFO {cps.ub:911} github Blueprint Created
+[2023-10-29 07:00:00,689]  INFO {cps.ub:911} google Blueprint Created
+[2023-10-29 07:00:01,309]  INFO {cps.server:207} Starting Gevent server on [::]:8083
+[2023-10-29 07:02:23,738]  WARN {cps.config_sql:352} Log path  not valid, falling back to default
+[2023-10-29 07:02:23,749]  WARN {cps.config_sql:352} Log path  not valid, falling back to default
+[2023-10-30 04:10:00,001]  INFO {apscheduler.executors.default:123} Running job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-10-30 04:10:00 UTC)" (scheduled at 2023-10-30 04:10:00+00:00)
+[2023-10-30 04:10:00,003]  INFO {apscheduler.executors.default:144} Job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-10-31 04:10:00 UTC)" executed successfully
+[2023-10-31 04:10:00,001]  INFO {apscheduler.executors.default:123} Running job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-11-01 04:10:00 UTC)" (scheduled at 2023-10-31 04:10:00+00:00)
+[2023-10-31 04:10:00,001]  INFO {apscheduler.executors.default:144} Job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-11-01 04:10:00 UTC)" executed successfully
+[2023-11-01 04:10:00,001]  INFO {apscheduler.executors.default:123} Running job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-11-02 04:10:00 UTC)" (scheduled at 2023-11-01 04:10:00+00:00)
+[2023-11-01 04:10:00,001]  INFO {apscheduler.executors.default:144} Job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-11-02 04:10:00 UTC)" executed successfully
+[2023-11-02 04:10:00,001]  INFO {apscheduler.executors.default:123} Running job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-11-03 04:10:00 UTC)" (scheduled at 2023-11-02 04:10:00+00:00)
+[2023-11-02 04:10:00,001]  INFO {apscheduler.executors.default:144} Job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-11-03 04:10:00 UTC)" executed successfully
+[2023-11-03 04:10:00,001]  INFO {apscheduler.executors.default:123} Running job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-11-04 04:10:00 UTC)" (scheduled at 2023-11-03 04:10:00+00:00)
+[2023-11-03 04:10:00,001]  INFO {apscheduler.executors.default:144} Job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-11-04 04:10:00 UTC)" executed successfully
+[2023-11-04 04:10:00,001]  INFO {apscheduler.executors.default:123} Running job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-11-05 04:10:00 UTC)" (scheduled at 2023-11-04 04:10:00+00:00)
+[2023-11-04 04:10:00,001]  INFO {apscheduler.executors.default:144} Job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-11-05 04:10:00 UTC)" executed successfully
+[2023-11-04 18:50:45,888]  INFO {cps.server:284} webserver stop (restart=False)
+[2023-11-04 18:50:45,889]  INFO {apscheduler.scheduler:212} Scheduler has been shut down
+[2023-11-04 18:50:45,889]  INFO {cps.server:262} Performing shutdown of Calibre-Web
+[2023-11-04 18:53:12,358]  WARN {cps.config_sql:352} Log path  not valid, falling back to default
+[2023-11-04 18:53:12,359]  WARN {cps.config_sql:388} invalidating configuration
+[2023-11-04 18:53:12,360]  WARN {cps.config_sql:352} Log path  not valid, falling back to default
+[2023-11-04 18:53:12,384]  INFO {cps:168} *** "pytz" version does not meet the requirements. Should: available, Found: Not available, please consider installing required version ***
+[2023-11-04 18:53:12,384]  INFO {cps:177} Starting Calibre Web...
+[2023-11-04 18:53:12,593]  WARN {py.warnings:109} /lsiopy/lib/python3.10/site-packages/flask_limiter/extension.py:308: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2023-11-04 18:53:12,711]  INFO {apscheduler.scheduler:181} Scheduler started
+[2023-11-04 18:53:12,712]  INFO {apscheduler.scheduler:895} Added job "end scheduled task" to job store "default"
+[2023-11-04 18:53:13,555]  INFO {cps.server:207} Starting Gevent server on [::]:8083
+[2023-11-04 20:19:23,351]  INFO {cps.server:284} webserver stop (restart=False)
+[2023-11-04 20:19:23,352]  INFO {apscheduler.scheduler:212} Scheduler has been shut down
+[2023-11-04 20:19:23,353]  INFO {cps.server:262} Performing shutdown of Calibre-Web
+[2023-11-04 20:33:26,936]  WARN {cps.config_sql:352} Log path  not valid, falling back to default
+[2023-11-04 20:33:27,053]  INFO {cps:168} *** "pytz" version does not meet the requirements. Should: available, Found: Not available, please consider installing required version ***
+[2023-11-04 20:33:27,054]  INFO {cps:177} Starting Calibre Web...
+[2023-11-04 20:33:27,202]  WARN {py.warnings:109} /lsiopy/lib/python3.10/site-packages/flask_limiter/extension.py:308: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2023-11-04 20:33:27,269]  INFO {apscheduler.scheduler:181} Scheduler started
+[2023-11-04 20:33:27,270]  INFO {apscheduler.scheduler:895} Added job "end scheduled task" to job store "default"
+[2023-11-04 20:33:27,940]  INFO {cps.server:207} Starting Gevent server on [::]:8083
+[2023-11-05 01:20:46,117]  INFO {cps.server:284} webserver stop (restart=False)
+[2023-11-05 01:20:46,118]  INFO {apscheduler.scheduler:212} Scheduler has been shut down
+[2023-11-05 01:20:46,118]  INFO {cps.server:262} Performing shutdown of Calibre-Web
+[2023-11-05 01:23:12,545]  WARN {cps.config_sql:352} Log path  not valid, falling back to default
+[2023-11-05 01:23:12,546]  WARN {cps.config_sql:388} invalidating configuration
+[2023-11-05 01:23:12,547]  WARN {cps.config_sql:352} Log path  not valid, falling back to default
+[2023-11-05 01:23:12,572]  INFO {cps:168} *** "pytz" version does not meet the requirements. Should: available, Found: Not available, please consider installing required version ***
+[2023-11-05 01:23:12,572]  INFO {cps:177} Starting Calibre Web...
+[2023-11-05 01:23:12,816]  WARN {py.warnings:109} /lsiopy/lib/python3.10/site-packages/flask_limiter/extension.py:308: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2023-11-05 01:23:12,942]  INFO {apscheduler.scheduler:181} Scheduler started
+[2023-11-05 01:23:12,943]  INFO {apscheduler.scheduler:895} Added job "end scheduled task" to job store "default"
+[2023-11-05 01:23:13,783]  INFO {cps.server:207} Starting Gevent server on [::]:8083
+[2023-11-05 03:12:25,919] ERROR {cps.admin:1864} DB Location is not Valid, Please Enter Correct Path
+[2023-11-05 03:12:25,919]  WARN {cps.config_sql:352} Log path  not valid, falling back to default
+[2023-11-05 03:17:12,155] ERROR {cps.admin:1864} DB Location is not Valid, Please Enter Correct Path
+[2023-11-05 03:17:12,156]  WARN {cps.config_sql:352} Log path  not valid, falling back to default
+[2023-11-05 03:18:27,972]  INFO {cps.server:284} webserver stop (restart=False)
+[2023-11-05 03:18:27,973]  INFO {apscheduler.scheduler:212} Scheduler has been shut down
+[2023-11-05 03:18:28,977]  INFO {cps.server:262} Performing shutdown of Calibre-Web
+[2023-11-05 03:18:35,167]  WARN {cps.config_sql:352} Log path  not valid, falling back to default
+[2023-11-05 03:18:35,353]  INFO {cps:168} *** "pytz" version does not meet the requirements. Should: available, Found: Not available, please consider installing required version ***
+[2023-11-05 03:18:35,353]  INFO {cps:177} Starting Calibre Web...
+[2023-11-05 03:18:35,499]  WARN {py.warnings:109} /lsiopy/lib/python3.10/site-packages/flask_limiter/extension.py:308: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2023-11-05 03:18:35,565]  INFO {apscheduler.scheduler:181} Scheduler started
+[2023-11-05 03:18:35,566]  INFO {apscheduler.scheduler:895} Added job "end scheduled task" to job store "default"
+[2023-11-05 03:18:36,237]  INFO {cps.server:207} Starting Gevent server on [::]:8083
+[2023-11-05 03:18:48,668]  WARN {cps.config_sql:352} Log path  not valid, falling back to default
